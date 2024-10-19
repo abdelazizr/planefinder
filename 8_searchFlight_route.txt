@@ -1,0 +1,15 @@
+{
+  "route_distance": "string",
+  "fixes": [
+    {
+      "name": "string",
+      "latitude": 0,
+      "longitude": 0,
+      "distance_from_origin": 0,
+      "distance_this_leg": 0,
+      "distance_to_destination": 0,
+      "outbound_course": 0,
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+I want to develop an app called PlaneFinder that uses the FlightAware 
+API to access live airplane data. The app will initially offer two features:
+
+1. Flight Search by Aircraft Type: 
+Users can input an aircraft type into a search box, such as "B788," 
+to view all corresponding flights currently in the air. 
+The results will display in a grid showing aircraft type, date, origin, 
+destination, total distance, flight time, 
+remaining time, and airline.
+
+2. Flight Search by Carrier: A second search box allows users to search by airline, 
+returning a grid with all aircraft currently in the air for that carrier, 
+along with the count of each aircraft type. For example, 
+it might show that Delta Airlines has 57 B757s, 10 B717s, and 5 A359s currently flying.

@@ -1,0 +1,14 @@
+get /flights/search
+Search for airborne flights by matching against various parameters including geospatial data. 
+Uses a simplified query syntax compared to /flights/search/advanced.
+Keys include:
+-prefix STRING
+-type STRING
+-idents STRING
+-identOrReg STRING
+-airline STRING
+
+GET /aircraft/types/{type}
+Returns information about an aircraft type, given an ICAO aircraft type 
+designator string. Data returned includes the description, 
+type, manufacturer, engine type, and engine count.

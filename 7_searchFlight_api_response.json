@@ -1,0 +1,66 @@
+{
+    "links": {
+      "next": ""
+    },
+    "num_pages": 1,
+    "flights": [
+      {
+        "ident": "string",
+        "ident_icao": "string",
+        "ident_iata": "string",
+        "fa_flight_id": "string",
+        "registration": "string",
+        "origin": {
+          "code": "string",
+          "code_icao": "string",
+          "code_iata": "string",
+          "code_lid": "string",
+          "timezone": "America/New_York",
+          "name": "LaGuardia",
+          "city": "New York",
+          "airport_info_url": ""
+        },
+        "destination": {
+          "code": "string",
+          "code_icao": "string",
+          "code_iata": "string",
+          "code_lid": "string",
+          "timezone": "America/New_York",
+          "name": "LaGuardia",
+          "city": "New York",
+          "airport_info_url": ""
+        },
+        "waypoints": [
+          0
+        ],
+        "first_position_time": "2021-12-31T19:59:59Z",
+        "last_position": {
+          "fa_flight_id": "string",
+          "altitude": 0,
+          "altitude_change": "C",
+          "groundspeed": 0,
+          "heading": 0,
+          "latitude": 0,
+          "longitude": 0,
+          "timestamp": "2021-12-31T19:59:59Z",
+          "update_type": "P"
+        },
+        "bounding_box": [
+          0
+        ],
+        "ident_prefix": "string",
+        "aircraft_type": "string",
+        "actual_off": "2021-12-31T19:59:59Z",
+        "actual_on": "2021-12-31T19:59:59Z",
+        "foresight_predictions_available": true,
+        "predicted_out": null,
+        "predicted_off": null,
+        "predicted_on": null,
+        "predicted_in": null,
+        "predicted_out_source": null,
+        "predicted_off_source": null,
+        "predicted_on_source": null,
+        "predicted_in_source": null
+      }
+    ]
+  }
